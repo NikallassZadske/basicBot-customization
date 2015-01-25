@@ -53,10 +53,10 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "RengeBOT",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-        maximumAfk: 120,
+        maximumAfk: 9999,
         afkRemoval: true,
         maximumDc: 60,
         bouncerPlus: true,
@@ -66,9 +66,9 @@
         cycleGuard: true,
         maximumCycletime: 10,
         timeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 7800,
         autodisable: true,
-        commandCooldown: 30,
+        commandCooldown: 5,
         usercommandsEnabled: true,
         lockskipPosition: 3,
         lockskipReasons: [
@@ -85,7 +85,7 @@
         motdEnabled: false,
         motdInterval: 5,
         motd: "Temporary Message of the Day",
-        filterChat: true,
+        filterChat: false,
         etaRestriction: false,
         welcome: true,
         opLink: null,
@@ -93,14 +93,14 @@
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
-        website: null,
+        website: https://vk.com/peezdoglazye_reborn,
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "",
+            OP: ""
         }
     }));
 
