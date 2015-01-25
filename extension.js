@@ -93,7 +93,7 @@
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
-        website: vk.com/peezdoglazye_reborn,
+        website: "vk.com/peezdoglazye_reborn",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
