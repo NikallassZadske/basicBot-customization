@@ -66,6 +66,8 @@
         cycleGuard: true,
         maximumCycletime: 10,
         timeGuard: true,
+        voteSkip: true,
+        voteSkipLimit: 5,
         maximumSongLength: 7800,
         autodisable: true,
         commandCooldown: 5,
