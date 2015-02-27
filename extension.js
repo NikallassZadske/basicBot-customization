@@ -55,7 +55,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "RengeBOT",
         language: "russian",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/NikallassZadske/basicBot/master/lang/ru.json",
         maximumAfk: 9999,
         afkRemoval: true,
         maximumDc: 60,
