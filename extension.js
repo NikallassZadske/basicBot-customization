@@ -40,7 +40,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("passu~ http://puu.sh/gzSQV/a9770f7bec.gif");
+                    API.sendChat("passu~ http://i.imgur.com/Ljg9jQn.png");
                 }
             }
         };
